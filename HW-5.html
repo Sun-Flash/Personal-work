@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB форма</title>
+ <style>
+   textarea {
+    width: 20%; /* Ширина поля в процентах */
+    height: 50px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+   } 
+  </style>
+<meta charset="utf-8">
+</head>
+<body>
+<form action="/" method="post">
+<br>
+<hr><br>
+Войти <input type="password" name="pass" maxlength="32">
+<input type="text" name="Login" maxlength="10" placeholder="Логин">
+<br><br>
+Ваш пол
+<br>
+Мужчина <input type="radio"><br>
+Женщина <input type="radio">
+<br><br>
+Ваша профессия <br>
+<label for="Строитель"><input id="Строитель" type="checkbox" value="Строитель">Строитель<br>
+<label for="Военный"><input id="Военный" type="checkbox" value="Военный">Военный<br>
+<label for="Фермер"><input id="Фермер" type="checkbox" value="Фермер">Фермер<br><br>
+Напишите несколько слов о себе <br>
+<textarea <style type=size></textarea><br><br>
+<input type="submit" name="submit" value="Отправить">
+<input type="reset" value="Сбросить">
+</body>
+</html>
